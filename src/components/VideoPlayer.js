@@ -6,7 +6,7 @@ const VideoPlayer = ({video}) => {
     if (!video) return <div> No Search Results</div>;
     console.log(video);
 
-    const videoSrc = `https:www.youtube.com/embed/${video.id.videoId}`;
+    const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
   return (
       <React.Fragment>
